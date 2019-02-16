@@ -193,6 +193,8 @@ namespace UnityEngine.Rendering.PostProcessing
         {
             value = from + (to - from) * t;
         }
+
+        public void SetValue(double v) => this.value = (float) v;
     }
 
     /// <summary>
